@@ -1,0 +1,23 @@
+body{
+	background: teal;
+}
+h1{
+	color: #fff;
+	font-size: 80px;
+}
+@media (min-width: 0px) and (max-width: 400px){
+	body{
+		background: red;
+	}
+	h1{
+		font-size: 20px;
+	}
+}
+@media (min-width: 401px) and (max-width: 800px){
+	body{
+		background: green;
+	}
+	h1{
+		font-size: 40px;
+	}
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Kalnia+Glaze:wght@100..700&family=Shadows+Into+Light&display=swap');
+
+@font-face{
+	src: url(../fonts/aesthetic_monoline/AestheticMonoline.ttf);
+	font-family: AestheticMonoline;
+}
+.h2-bg{
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+	color: #fff;
+}
+.bi-bag-heart{
+	color: red;
+	font-size: 50px;
+}
+i{
+	border: 1px solid red;
+}
+ul li{
+	/* list-style: square inside url(../img/icon.jpg); */
+	list-style: none;
+	border: 1px solid red;
+}
+ol li{
+	list-style: upper-roman inside;
+	border: 1px solid teal;
+}
+body{
+	margin: 0px;
+}
+h1{
+	text-shadow: 5px 6px 5px teal;
+	border: 1px solid red;
+	box-shadow: 2px 2px 10px 5px teal;
+	padding: 40px 0px;
+	text-align: center;
+	font-weight: normal;
+	width: 50%;
+	margin: 40px auto;
+	font-family: AestheticMonoline;
+}
+p{
+	color: red;
+	font-size: 22px;
+	line-height: 1.5;
+	text-align: justify;
+	text-decoration: none;
+	text-indent: 100px;
+	letter-spacing: 1px;
+	word-spacing: 1px; 	
+	font-weight: 400;
+	/* text-transform: capitalize; */
+	padding: 0px 20px;
+	font-family: "Shadows Into Light", cursive;
+}
+span{
+	font-size: 100px;
+	line-height: .5;
+	font-family: "Ga Maamli", sans-serif;
+}

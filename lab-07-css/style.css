@@ -1,0 +1,24 @@
+h1{
+	/* background-color: #00A6E2; 
+	   background-image: url(bytes-projects.jpg);
+	   background-repeat: repeat;
+	   background-position: left bottom;
+	   background-attachment: fixed;
+	*/
+	background: url(bytes-projects-01.jpg) no-repeat top left fixed;
+	background-size: cover;
+	
+	height: 200px;
+}
+p{
+	background: #FC4236;
+}
+.ambani{
+	color: #fff;
+}
+.elon_mask{
+	letter-spacing: 30px;
+}
+#tata{
+	font-size: 40px;
+}

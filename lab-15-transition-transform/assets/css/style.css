@@ -1,0 +1,66 @@
+@keyframes xyz{
+	0%{
+		background: red;
+		transform: rotate(360deg);
+		top: 0px;
+	}
+	10%{
+		background: yellow;
+		transform: rotate(-360deg);
+	}
+	20%{
+		background: teal;
+		transform: rotate(360deg);
+	}
+	30%{
+		background: pink;
+		transform: rotate(-360deg);
+	}
+	40%{
+		background: blue;
+		transform: rotate(360deg);
+	}
+	50%{
+		background: tomato;
+		transform: rotate(-360deg);
+	}
+	60%{
+		background: purple;
+		transform: rotate(360deg);
+	}
+	70%{
+		background: orange;
+		transform: rotate(-360deg);
+	}
+	80%{
+		background: #F8D714;
+		transform: rotate(360deg);
+	}
+	90%{
+		background: #94B5E7;
+		transform: rotate(-360deg);
+	}
+	100%{
+		background: green;
+		transform: rotate(360deg);
+		left: 400px;
+	}
+}
+.big-box{
+	width: 80%;
+	height: 600px;
+	margin: 50px auto;
+	border: 1px solid red;
+	position: relative;
+}
+.small-box-1{
+	width: 20%;
+	height: 200px;
+	background: white;
+	position: absolute;
+	/* animation-name: xyz;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in; */
+	animation: xyz 5s infinite ease-in;
+}

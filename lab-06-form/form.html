@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Welcome - FORM</title>
+	</head>
+	<body>
+		<form method="get" action="">
+			<label>Select your desire Country </label> <br>
+			<select name="s_country" required>
+				<option value="">Select Country</option>
+				<option value="bn">Bangladesh</option>
+				<option value="mn">Mayanmar</option>
+				<option value="nk">North Korea</option>
+				<option value="ug">Uganda</option>
+				<option value="hu">Hunululu</option>
+				<option value="no">Noakhali</option>
+			</select>
+			
+			<hr>
+		
+			<label>Coose your topic: </label> <br>
+			<input type="checkbox" name="subject" value="html"> 
+			<label>HTML</label> <br>
+			<input type="checkbox" name="subject" value="css"> 
+			<label>CSS</label><br>
+			<input type="checkbox" name="subject" value="js"> 
+			<label>JS</label>
+			
+			<hr>
+			
+			<input type="radio" name="gender" value="male">
+			<label>Male</label> <br>
+			<input type="radio" name="gender" value="female">
+			<label>Female</label>
+			
+			<hr>
+			
+			<label for="students_name">Trainee Name</label>
+			<input type="text" name="trainee_name" value="" id="students_name" placeholder="Trainee Name" autocomplete="off">
+			<hr>
+			
+			<label for="reg_number">Registration Number</label>
+			<input type="number" name="reg_number" id="reg_number" min="0" max="5">
+			<hr>
+			
+			<label>Contact Number *</label>
+			<input type="tel" name="mobile_number" value="" maxlength="11">
+			<hr>
+			
+			<label>Write Valid Email</label>
+			<input type="email" name="reg_email">
+			<hr>
+			
+			<label>Type Your Password</label>
+			<input type="password" name="password">
+			<hr>
+			
+			<label>Joining Date</label>
+			<input type="date" name="join_date">
+			<hr>
+			
+			<label>Upload Your Photo</label>
+			<input type="file" name="pp" accept="image/*" multiple>
+			<hr>
+			
+			<input type="reset" value="Clear Form">
+			<input type="submit" value="Save">
+		</form>
+	</body>
+</html>

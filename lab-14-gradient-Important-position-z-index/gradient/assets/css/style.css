@@ -1,0 +1,43 @@
+.linear-gradient{
+	width: 800px;
+	height: 400px;
+	/*  background: linear-gradient(to bottom, rgba(237, 175, 93, .5), rgba(230, 63, 50,.3), rgba(3, 168, 124, .5)); */
+	
+	/* background: linear-gradient(to bottom, red, green, blue); */
+	
+	background: linear-gradient(rgba(237, 175, 93,.5), rgba(0,0,0,.5)), url(../img/blog-03.jpg) no-repeat;
+	
+	background-size: cover;
+	margin: 50px auto;
+	border: 1px solid red;
+}
+.linear-gradient h1{
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	padding-top: 50px;
+}
+.radial-gradient{
+	width: 600px;
+	height: 400px;
+	
+	/* background: linear-gradient(to bottom, rgba(237, 175, 93, .5), rgba(230, 63, 50,.3), rgba(3, 168, 124, .5)); */
+	
+	background: radial-gradient(circle, red, green, blue, yellow); 
+	
+	margin: 50px auto;
+	border: 1px solid red;
+}
+
+.conic-gradient{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	/* background: linear-gradient(to bottom, rgba(237, 175, 93, .5), rgba(230, 63, 50,.3), rgba(3, 168, 124, .5)); */
+	
+	background: conic-gradient(from 45deg, red, green, blue, yellow); 
+	
+	margin: 50px auto;
+	border: 1px solid red;
+}
+

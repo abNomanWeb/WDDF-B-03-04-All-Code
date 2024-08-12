@@ -1,0 +1,28 @@
+.big-box{
+	width: 80%;
+	height: 600px;
+	margin: 50px auto;
+	border: 1px solid red;
+	position: relative;
+}
+.small-box-1{
+	width: 20%;
+	height: 200px;
+	background: red;
+	position: absolute;
+	z-index: 2;
+}
+.small-box-2{
+	width: 50%;
+	height: 200px;
+	background: green;
+	position: absolute;
+	z-index: 1;
+}
+.small-box-3{
+	width: 80%;
+	height: 200px;
+	background: blue;
+	position: absolute;
+	z-index: -99999;
+}

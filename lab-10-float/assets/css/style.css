@@ -1,0 +1,19 @@
+.border{
+	
+}
+p{
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid red;
+	display: inline;
+}
+span{
+	width: 200px;
+	height: 200px;
+	padding: 0px 120px;
+	margin: 0px 120px;
+	border: 1px solid green;
+	display: inline-block;
+}

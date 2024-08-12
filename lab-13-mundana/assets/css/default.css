@@ -1,0 +1,349 @@
+/* common code start */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face{
+	src: url(../fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+	font-family: SourceSansProR;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container-fluid{
+	width: 100%;
+	margin: 0px auto;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	height: 100%;
+	margin: 0px auto;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+.border{
+	/* border: 1px solid teal; */
+	box-sizing: border-box;
+}
+.float-start{
+	float: left;
+	height: 100%;
+}
+.float-end{
+	float: right;
+	height: 100%;
+}
+.w-15{
+	width: 15%;
+}
+.w-25{
+	width: 25%;
+}
+.w-35{
+	width: 35%;
+}
+.w-50{
+	width: 50%;
+}
+.w-65{
+	width: 65%;
+}
+.w-75{
+	width: 75%;
+}
+.w-85{
+	width: 85%;
+}
+.w-100{
+	width: 100%;
+}
+.my-25{
+	margin: 25px 0px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.title{
+	margin-bottom: 25px;
+}
+.title h2{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px 0px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 1px solid rgba(0,0,0, .1);
+}
+.title h2 span{
+	padding: 0px 0px 20px 0px;
+	border-bottom: 1px solid rgba(0,0,0, 1);
+}
+/* common code end */
+
+/* navbar section start */
+#navbar{
+	height: 60px;
+}
+.navbar-brand a{
+	color: rgba(0, 0, 0, 0.9);
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	line-height: .9;
+	font-weight: 700;
+	padding: 20px 20px 20px 0px;
+}
+.navbar-nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar-nav ul li a{
+	color: rgba(0, 0, 0, 0.7);
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0px 10px;
+	padding: 20px 20px;
+	transition: .5s;
+}
+.navbar-nav ul li a.active{
+	color: #fff;
+	font-weight: 700;
+	background: #03A87C;
+}
+.navbar-nav ul li a:hover{
+	font-weight: 700;
+}
+.navbar-btn a{
+	color: #03A87C;
+	font-family: SourceSansProR;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 13px 0px;
+	padding: 6px 30px;
+	border: 1px solid #03A87C;
+	border-radius: 6px;
+	transition: .5s;
+}
+.navbar-btn a:hover{
+	color: #fff;
+	background: #03A87C;
+}
+/* navbar section end */
+
+/* header section start */
+header{
+	height: 450px;
+}
+/* header-content start */
+.header-content{
+	background: #E8F3EC;
+	padding: 35px 40px;
+}
+.header-content h1{
+	color: #212529;
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+.header-content p{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.header-content a{
+	color: #fff;
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	background: #212529;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+/* header-content end */
+/* header-poster start */
+.header-poster{
+
+}
+/* header-poster end */
+/* header section end */
+
+/* blog section start */
+#blog{
+	height: 300px;
+	margin: 40px 0px;
+}
+.blog-content{
+	padding-right: 30px;
+}
+.blog-content img{
+	height: 130px;
+	object-fit: cover;
+    object-position: 0% 0%;
+}
+.blog-content a.blog-title{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 15px 0px; 
+}
+.blog-content p{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0px 0px 10px 0px; 
+}
+.blog-content small{
+	color: #6c757d;
+	font-family: SourceSansProR;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.blog-content small a{
+	color: #6c757d;
+	display: block;
+}
+.blog-list{
+	
+}
+.blog-list-item{
+	height: 80px;
+}
+.blog-list-item-poster{
+	padding-right: 15px;
+}
+.blog-list-item-content a{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0px 0px 12px 0px; 
+}
+.blog-list-item-content p{
+	color: #6c757d;
+	font-family: SourceSansProR;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px 0px 8px 0px; 
+}
+/* blog section end */
+
+/* stories section start */
+#stories{
+	height: 600px;
+}
+.stories-item-list{
+	height: 140px;
+}
+.stories-item-container{
+	padding-right: 25px;
+}
+.stories-item-list-content{
+	padding-right: 20px;
+}
+.stories-item-list-content a{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0px 0px 8px 0px; 
+}
+.stories-item-list-content p{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0px 0px 10px 0px; 
+}
+.stories-item-list-content span{
+	color: #6c757d;
+	font-family: SourceSansProR;
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	margin: 0px 0px 5px 0px; 
+}
+.stories-item-list-poster img{
+	height: auto;
+}
+.popular-item-container{
+	padding-left: 25px;
+}
+.popular-item-list{
+	height: 60px;
+	margin-bottom: 25px;
+}
+.popular-item-list-number h2{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 50px;
+	line-height: 1;
+	font-weight: 700;
+	margin: 0px 0px 0px 0px; 
+}
+.popular-item-list-content{
+	padding-left: 5px;
+}
+.popular-item-list-content a{
+	color: #212529;
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 5px 0px 10px 0px; 
+}
+.popular-item-list-content p{
+	color: #6c757d;
+	font-family: SourceSansProR;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px 0px 0px 0px; 
+}
+/* stories section end */
+
+/* footer section start */
+#footer{
+	margin-bottom: 150px;
+}
+#footer .container{
+	padding-top: 25px;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+.footer-copyright p,
+.footer-author p{
+	color: #6c757d;
+	font-family: SourceSansProR;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px 0px 0px 0px; 
+}
+.footer-copyright p a,
+.footer-author p a{
+	color: #6c757d;
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.footer-author{
+	text-align: right;
+}
+/* footer section end */
+

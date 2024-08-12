@@ -1,0 +1,14 @@
+git init
+git add .
+git commit -m "Mundana Template using Flexbox"
+git branch -M master
+git remote add origin https://github.com/abNomanWeb/medinova-template.git
+git push -u origin master
+git pull
+
+git status
+
+git config --global user.name "abnomanweb"
+git config --global user.email "abnoman.excel@gmail.com"
+
+git clone URL
