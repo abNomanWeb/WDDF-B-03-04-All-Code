@@ -1,0 +1,40 @@
+/* common code start */
+:root{
+    --primary-color: #87D37C;
+    --secondary-color: #FDFAFA;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+.container{
+    min-width: 360px;
+}
+/* common code end */
+
+/* header section start */
+#header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 675px;
+}
+/* header section end */
+/* navbar section start */
+#navbar .nav-link,
+#navbar .dropdown-item {
+    padding: var(--bs-nav-link-padding-y) 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--light-color);
+    text-transform: uppercase;
+
+    &:hover{
+        color: var(--primary-color);
+    }
+
+    &.active{
+        color: var(--primary-color);
+    }
+}
+#navbar .dropdown-menu {
+    --bs-dropdown-bg: transparent;
+}
+/* navbar section end */
