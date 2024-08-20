@@ -1,0 +1,79 @@
+/* common code start */
+:root{
+    --primary-color: #87D37C;
+    --secondary-color: #FDFAFA;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+.container{
+    min-width: 360px;
+}
+.text-justify{
+    text-align: justify;
+}
+/* common code end */
+
+/* header section start */
+#header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+/* header section end */
+/* navbar section start */
+.nav-active{
+    background: rgba(0,0,0,.5);
+    border-bottom: 1px solid var(--secondary-color);
+}
+#navbar .nav-link,
+#navbar .dropdown-item {
+    padding: var(--bs-nav-link-padding-y) 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--light-color);
+    text-transform: uppercase;
+
+    &:hover{
+        color: var(--primary-color);
+    }
+
+    &.active{
+        color: var(--primary-color);
+    }
+}
+#navbar .dropdown-menu {
+    --bs-dropdown-bg: transparent;
+}
+/* navbar section end */
+
+/* slider section start */
+#myCarousel h1 span{
+    color: var(--primary-color);
+}
+#myCarousel .carousel-indicators {
+    bottom: 40px;
+}
+#myCarousel .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    border-radius: 50%;
+
+    &.active{
+        background-color: var(--primary-color);
+    }
+}
+/* slider section end */
+
+/* about us section start */
+#about-us{
+    
+}
+.about-content a{
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: .3s linear;
+    &:hover{
+        color: var(--primary-color);
+    }
+}
+/* about us section end */
