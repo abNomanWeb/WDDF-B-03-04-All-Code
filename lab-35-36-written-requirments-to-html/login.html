@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login - E-Commerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- default css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" alt="" title="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product-details.html">Product Details</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="signup.html">Signup</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+             </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">My Account</a></li>
+                  <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="login.html">Signup</a></li>
+                  <li><a class="dropdown-item" href="signup.html">login</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <a href="" class="btn btn-outline-success ms-0 ms-lg-2 mt-2 mt-lg-0">Add to Cart</a>
+          </div>
+        </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- login section start -->
+    <section id="login" class="py-5">
+        <section class="container py-0 py-lg-5">
+            <!-- title start -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center mb-4">
+                        <h2 class="text-primary text-uppercase h1">Login</h2>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active">Login</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!-- title end -->
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputUsername" class="form-label">Username</label>
+                            <input type="text" name="username" class="form-control" id="inputUsername">
+                        </div>
+                        <div class="col-md-12">
+                          <label for="inputPassword" class="form-label">Password</label>
+                          <input type="password" name="password" class="form-control" id="inputPassword">
+                        </div>
+
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-outline-primary d-block w-100">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- login section end -->
+
+    <!-- footer section start -->
+    <footer id="footer" class="py-4">
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content text-center">
+                        <p class="lead m-0">
+                            &copy; 2024 WDDF 3&4. All Right Reserved.
+                        </p>
+                        <p class="lead m-0" id="datetime">
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- default js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
